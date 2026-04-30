@@ -130,9 +130,9 @@ Use the plugin command when you want to pause or resume active memory for the
 current chat session without editing config:
 
 ```text
-/active-memory status
-/active-memory off
-/active-memory on
+/active_memory status
+/active_memory off
+/active_memory on
 ```
 
 This is session-scoped. It does not change
@@ -143,9 +143,9 @@ If you want the command to write config and pause or resume active memory for
 all sessions, use the explicit global form:
 
 ```text
-/active-memory status --global
-/active-memory off --global
-/active-memory on --global
+/active_memory status --global
+/active_memory off --global
+/active_memory on --global
 ```
 
 The global form writes `plugins.entries.active-memory.config.enabled`. It leaves
